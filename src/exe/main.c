@@ -36,7 +36,7 @@ int main() {
   constexpr char input_req[] = "input should be 2 length long\n";
 	char input[input_len];
 	struct Toe game = {};
-	enum ToeError error = NO_ERROR;
+	enum ToeError error = {};
 	
   while (true) {
     toe_presentation(&game);
