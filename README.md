@@ -10,9 +10,9 @@ cd and xmake install:
 ```shell
 cd tictac && xmake install
 ```
-this will bring the *tic* command and the
-dynamic library *tictac* to the appropriate 
-local; which can be used in futher projects.
+this will bring the *tic* command and the *tictac*
+dynamic library to the appropriate local; which 
+can be used in futher projects.
 
 ## Playing tic tac toe on terminal
 just in case you don't know how to play tic tac toe,
