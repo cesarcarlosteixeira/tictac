@@ -10,7 +10,7 @@ target("tic")
       
     set_kind("binary")
     add_files("src/exe/main.c")
-
+    add_deps("tictac")
 
 target("tictac")
    set_optimize("fastest")
